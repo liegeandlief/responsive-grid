@@ -74,7 +74,7 @@
 }
 
 /********** Small devices **********/
-@media (min-width: 768px) {
+@media only print, only screen and (min-width: 768px) {
 	
 	.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1,
 	.col-xs-2, .col-sm-2, .col-md-2, .col-lg-2,
@@ -235,7 +235,7 @@
 }
 
 /********** Medium devices **********/
-@media (min-width: 992px) {
+@media only print, only screen and (min-width: 992px) {
 
 	.col-md-1 {
 		width: 8.3333333333333333333333333333333%;
@@ -380,7 +380,7 @@
 }
 
 /********** Large devices **********/
-@media (min-width: 1200px) {	
+@media only print, only screen and (min-width: 1200px) {	
 	
 	.col-lg-1 {
 		width: 8.3333333333333333333333333333333%;
